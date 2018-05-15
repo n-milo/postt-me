@@ -1,0 +1,91 @@
+.post-body {
+	display: flex;
+}
+
+.description {
+	padding: 18px;
+}
+
+.comment {
+	padding: 5px;
+	border-bottom: 1px dotted #333;
+}
+.child-comment {
+	margin-left: 25px;
+}
+.comment > p {
+	margin-top: 0;
+}
+.post .post-title {
+	font-size: 2.5em;
+}
+.post-preview .post-title {
+	margin-top: 0;
+	max-width: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.post-title a {
+	text-decoration: none;
+}
+.tags a {
+	text-decoration: none;
+}
+
+.like-section a {
+	color: black;
+}
+.like-bar {
+	width: 200px;
+	height: 10px;
+	background-color: #AB0000;
+	display: inline-block;
+	margin-bottom: 12px;
+}
+.like-button {
+	display: inline-block;
+	text-align: center;
+}
+.like-button .active {
+	color: #00AAE3;
+}
+.like-bar .likes {
+	background-color: #00AB14;
+	height: 100%;
+}
+
+.post-preview {
+	display: flex;
+}
+.body-preview {
+	max-width: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin: 12px 0px;
+}
+.post-preview .thumbnail {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.post-preview .thumbnail.video {
+	width: 178px;
+	height: 100px;
+	background-position: center;
+}
+.post-preview .thumbnail.image {
+	width: 100px;
+	height: 100px;
+	background-position: center;
+}
+.post-preview .thumbnail, .post-preview .text-icon {
+	margin-right: 15px;
+}
+.post-preview .title-box {
+	display: flex;
+}
+.content-container {
+	max-width: 80%;
+}

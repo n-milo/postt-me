@@ -1,0 +1,19 @@
+#type-buttons {
+	display: flex;
+	width: 100%;
+}
+
+#type-buttons a {
+	width: 100%;
+	text-align: center;
+	border-radius: 15px;
+	background-color: #fff;
+	margin: 5px;
+	padding-top: 25px;
+	text-decoration: none;
+	color: #000;
+}
+
+#type-buttons a:hover {
+	color: #4899DB;
+}

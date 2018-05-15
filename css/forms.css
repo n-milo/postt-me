@@ -1,0 +1,81 @@
+.form-input {
+	width: 75%;
+	border: 2px solid #ccc;
+	padding: 8px;
+	resize: none;
+	border-radius: 5px;
+	font-size: 11pt;
+}
+.form-input.full-width {
+	width: 100%;
+}
+
+.form-input:focus, .form-input:hover, input[type=submit]:hover, button.form-button:hover {
+	border: 2px solid #555;
+}
+
+button.form-button, input[type=submit] {
+	background-color: #73BBF5;
+	border: 2px solid #75B0E0;
+	border-radius: 10px;
+	color: white;
+	padding: 8px;
+	margin: 6px;
+}
+button.form-button.full-width input[type=submit].full-width {
+	width: 100%;
+	padding: 16px;
+	margin: 10px;
+}
+button.form-button:disabled, input[type=submit]:disabled {
+	background-color: #999;
+	border: 2px solid #888;
+}
+form {
+	width: 70%;
+}
+
+.tags-input {
+	background-color: white;
+	padding: 3px;
+	cursor: text;
+	width: 100%;
+}
+.tags-input .tag {
+	font-size: 11pt;
+	padding: 0.5em 0.75em;
+	background-color: #444;
+	display: inline-block;
+	margin: 0.25em 0.1em;
+	transition: all 0.1s linear;
+	cursor: pointer;
+	color: white;
+}
+.tags-input .tag:hover {
+	background-color: #4899DB;
+}
+.tags-input .tag .close::after {
+	content: '×';
+	font-weight: bold;
+	display: inline-block;
+	transform: scale(1.4);
+	margin-left: 0.75em;
+}
+.tags-input .tag .close:hover::after {
+	color: red;
+}
+.tags-input .main-input {
+	border: 0;
+	outline: 0;
+	padding: 0.5em 0.1em;
+	font-size: 11pt;
+}
+
+@media screen and (max-width: 480px) {
+	form {
+		width: 100%;
+	}
+	.form-input {
+		width: 100%;
+	}
+}

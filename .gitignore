@@ -1,0 +1,4 @@
+.DS_Store
+
+# contains passwords
+php/db.php

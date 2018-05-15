@@ -1,0 +1,137 @@
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+.material-icons.md-64 { font-size: 64px; }
+.hidden { visibility: hidden; }
+img, input, textarea { max-width: 100% }
+
+.navbar {
+    z-index: 5;
+	overflow: hidden;
+	background-color: #444;
+	position: fixed;
+	top: 0;
+	width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+}
+.navbar a, .navbar .navbar-item, .dropdown-content a {
+	float: left;
+	color: white;
+	padding: 14px 16px;
+	text-align: center;
+	text-decoration: none;
+}
+.navbar .navbar-item {
+	padding: 0px 0px;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+	background: #111;
+}
+.navbar .active {
+	background: #4899DB;
+}
+#logo {
+	height: 24px;
+	padding-right: 10px;
+	position: absolute;
+}
+
+#search-container {
+}
+#search-form {
+	width: 400px;
+}
+#search-box {
+	font-size: 14px;
+	width: 75%;
+	padding: 6px;
+	border: none;
+	margin-top: 10px;
+}
+#search-button {
+	display: none;
+	padding: 2px 6px;
+	background: #ddd;
+	font-size: 14px;
+	border: none;
+	margin-top: 10px;
+}
+
+.dropdown {
+	float: right;
+	overflow: hidden;
+}
+.dropdown .dropbtn {
+	font-size: 16px; 
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: inherit;
+	font: inherit;
+	margin: 0;
+}
+.dropdown-content {
+	display: none;
+	position: fixed;
+	background-color: #444;
+}
+.dropdown-content a {
+	display: block;
+	width: 76%;
+}
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.error {
+	color: red;
+}
+
+* {
+	font-family: 'Arial', sans-serif;
+}
+body {
+	margin: 0;
+}
+main {
+	width: 80%;
+	margin: auto;
+	margin-top: 45px;
+	padding: 0;
+	height: 100%;
+}
+small {
+	color: #777;
+}
+footer {
+	background-color: #444;
+	color: white;
+	padding: 40px;
+	font-size: 0.75em;
+}
+.section {
+	background-color: #eee;
+	margin: 10px;
+	padding: 10px;
+	margin-bottom: 0;
+}
+.hidden {
+	display: none;
+}
+code {
+	background-color: #00000011;
+	color: black;
+	padding: 5px;
+	border-radius: 5px;
+	font-family: "Lucida Console", monospace;
+}
+
+@media screen and (max-width: 600px) {
+	.navbar span.navbar-item {
+		display: none;
+	}
+	main {
+		width: 85%;
+	}
+}

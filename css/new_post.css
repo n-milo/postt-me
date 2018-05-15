@@ -1,0 +1,40 @@
+#body-input {
+	height: 160px;
+}
+#file-content {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%); 	
+}
+#post-form {
+	width: 70%;
+}
+#file-upload {
+	display: none;
+}
+#preview * {
+	max-width: 75%;
+	height: auto;
+}
+#progress-container {
+	width: 100%;
+	background-color: grey;
+	border-radius: 5px;
+	margin-bottom: 16px;
+	display: none;
+}
+#progress-bar {
+	line-height: 30px;
+	height: 30px;
+	width: 1%;
+	background-color: #73BBF5;
+	color: white;
+	border-radius: 5px;
+	text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+	#category {
+		float: left;
+	}
+}
